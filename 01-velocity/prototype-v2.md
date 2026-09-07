@@ -10,19 +10,22 @@ _____
 
 ## Upgrade paths run (pick two)
 
-- [ ] Design Match
+- [x] Design Match
 - [ ] Add Interactivity
 - [ ] Surgical Refinement
 - [ ] Existing Product Track
 
 ## v2 build
 
-- **v2 shareable link:** _____
-- **Before → after:** _____
-- **What each pass changed:** _____
+- **Shareable link:** https://first-step-analytics.lovable.app/
+- **Before → after:** Generic mockup with 3 metrics and one line insights
+- **What each pass changed:**
+  - Design Match: matched to teal colors and added trends
 
 ## Show & Swap read, round 2
 
 _A NEW partner, a blind read. What landed differently from v1?_
 
-_____
+- **Feels like a real product, or a mockup?** Visual Markup
+- **Where interactivity fell short:** all 3 could be in one dashboard, lot of real estate on the screen
+- **Would they show it to a VP?** Sure, it shows the trends and provide enough executive level information
