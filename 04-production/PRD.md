@@ -43,7 +43,26 @@ Historical storage of session signals across users (prototype keeps one in-memor
 | # | Requirement | Priority | Acceptance criteria |
 |---|---|---|---|
 | 1 | First screen leads with one headline metric, direction, and time frame | Must | Metric, direction arrow and period visible above the fold; no other chart rendered on load |
+
 | 2 | Plain-language takeaway and cause shown next to the metric | Must | One sentence states what happened and why; a second sentence rules out other causes; copy readable at a glance |
+
+| 3 | One recommended action with a single primary button | Must | Exactly one primary action; label names the action and affected count; secondary escapes are text links only |
+
+| 4 | Action requires sign-in; unauthenticated users route to sign-in | Must | Clicking the action while signed out opens sign-in; the screen explains why authentication is required (action affects customers) |
+
+| 5 | Authorization checked after sign-in | Must | Authorized users proceed to confirmation; unauthorized users see an inline permission block and cannot continue |
+
+| 6 | Clear failure and validation states on sign-in | Should | Missing credentials keep the user on screen with "Enter your email and password to continue."; verification failure shows an error with a working "Try again" action; checks show a brief skeleton, no layout jump |
+
+| 7 | Confirmation before execution | Must | Nothing executes until "Confirm resend" is clicked; screen shows action, reason, affected audience, and expected impact; "Cancel" returns to the answer without recording completion |
+
+| 8 | Receipt after execution | Should | Action Taken screen states what was done, expected outcome, and when to check back |
+
+| 9 | Full dashboard retained as deliberate secondary view | Should | Reachable via text link from the answer; opening it is recorded; carries a banner acknowledging the escape |
+
+| 10 | Session signal measurement | Must | Records: action intent, time to action, sign-in attempts, authorization result, confirmation reached, confirmed vs cancelled, full-dashboard opens, export clicks, evidence views; verdict distinguishes acted / escaped / backed out / blocked / no decision |
+
+| 11 | Evidence panel with research grounding | Could | User quotes and baseline numbers viewable from the answer screen without leaving it |
 
 ## Data & events
 
